@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Playfair+Display:ital@1&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 300vh;
+    background-color: rgba(121, 115, 115, 0.26);
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+}
+
+.header .d {
+    top: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    float: left;
+    margin-left: 80px;
+    left: 30px;
+}
+
+.header .d:hover {
+    text-shadow: 2px 2px 2px blue, 2px 2px 1px blue;
+}
+
+.header .pp {
+    top: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    right: 30px;
+    position: relative;
+    float: right;
+    margin-right: 80px;
+}
+
+.header .pp:hover {
+    text-shadow: 2px 2px 2px blue, 2px 2px 1px blue;
+}
+
+.header b {
+    top: 17px;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+    position: relative;
+    left: 27%;
+}
+
+.header b:hover {
+    text-shadow: 2px 2px 2px blue, 2px 2px 1px blue;
+}
+
+
+.header img {
+    cursor: pointer;
+    top: 10px;
+    right: 51.2%;
+    position: absolute;
+    width: 60px;
+    height: 35px;
+}
+
+.hr {
+    z-index: 1;
+    position: relative;
+    top: 10px;
+    width: 90%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+
+.kruq {
+    left: 60px;
+    top: 53.5px;
+    width: 6.5px;
+    height: 6.5px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: black;
+}
+
+.kruq1 {
+    right: 61px;
+    top: 53.5px;
+    width: 6.5px;
+    height: 6.5px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: black;
+}
+
+.menu {
+    font-weight: 900;
+    font-size: 130px;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+
+.menu1 {
+    font-weight: 900;
+    font-size: 150px;
+    position: absolute;
+    top: 215px;
+    left: 50px;
+    color: rgb(66, 61, 61);
+}
+
+.text {
+    width: 400px;
+    font-size: 28px;
+    top: 118px;
+    position: absolute;
+    right: 32%;
+    color: rgb(66, 62, 62);
+}
+
+.find {
+    cursor: pointer;
+    right: 80px;
+    position: absolute;
+    color: white;
+    width: 200px;
+    height: 50px;
+    top: 170px;
+    background-color: black;
+    border-radius: 35px;
+}
+
+.find:hover {
+    box-shadow: 0px 0px 4px 4px blue;
+}
+
+.find p {
+    font-size: 24px;
+    top: -15px;
+    position: absolute;
+    left: 20px;
+}
+
+.find p:hover {
+    text-shadow: 2px 2px 2px blue, 2px 2px 1px blue;
+}
+
+.find .kruq {
+    top: 2.5px;
+    left: 147px;
+    width: 50px;
+    height: 45px;
+    background-color: white;
+    border-radius: 35px;
+}
+
+.find img {
+    position: absolute;
+    left: -10px;
+    width: 70px;
+    height: 45px;
+}
+
+.border {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    top: 390px;
+    left: 45px;
+    z-index: 2;
+}
+
+.border1 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    clip-path: polygon(42% 41%, 50% 0, 57% 41%, 100% 50%, 60% 61%, 50% 100%, 41% 60%, 0 50%);
+    z-index: 1;
+    transition: 2s;
+}
+
+.border1:hover {
+    background-color: white;
+    transition: 2s;
+    top: 20px;
+    left: 20px;
+    width: 110px;
+    height: 110px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.menu2 {
+    font-weight: 900;
+    font-size: 140px;
+    position: absolute;
+    top: 370px;
+    left: 195px;
+}
+
+.ox {
+    position: absolute;
+    top: 400px;
+    right: 215px;
+    width: 400px;
+    height: 130px;
+}
+
+.ox .kruq3 {
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    width: 70px;
+    height: 70px;
+    border: 7px solid black;
+    border-radius: 50%;
+}
+
+.ox .line {
+    position: absolute;
+    top: 65px;
+    left: 110px;
+    width: 165px;
+    border: 3px solid black;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.ox .line1 {
+    top: 40px;
+    right: 109px;
+    width: 70px;
+    position: absolute;
+    border: 3px solid black;
+    transform: rotate(45deg);
+    background-color: black;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.ox .line2 {
+    top: 90px;
+    right: 109px;
+    width: 70px;
+    position: absolute;
+    border: 3px solid black;
+    transform: rotate(-45deg);
+    background-color: black;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.ox .kruq4 {
+    position: absolute;
+    right: 80px;
+    top: 7.5px;
+    width: 130px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: silver;
+}
+
+.ox .kruq4:hover {
+    box-shadow: 0px 0px 3px 3px black;
+}
+
+.menu3 {
+    font-weight: 900;
+    font-size: 140px;
+    position: absolute;
+    top: 370px;
+    right: 40px;
+}
+
+.menu4 {
+    font-weight: 900;
+    font-size: 150px;
+    position: absolute;
+    top: 550px;
+    left: 50px;
+}
+
+.hr1 {
+    z-index: 1;
+    position: relative;
+    top: 700px;
+    width: 90%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+
+.hr2 {
+    z-index: 1;
+    position: relative;
+    top: 780px;
+    width: 90%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+
+.kruq5 {
+    top: 776px;
+    left: 60px;
+    width: 6.5px;
+    height: 6.5px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: black;
+}
+
+.kruq7 {
+    right: 61px;
+    top: 776px;
+    width: 6.5px;
+    height: 6.5px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: black;
+}
+
+.kruq6 {
+    top: 868px;
+    left: 60px;
+    width: 6.5px;
+    height: 6.5px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: black;
+}
+
+.kruq8 {
+    right: 61px;
+    top: 868px;
+    width: 6.5px;
+    height: 6.5px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: black;
+}
+
+.footer {
+    top: 800px;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+}
+
+.box img {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+}
+
+.box p {
+    cursor: pointer;
+    font-weight: 900;
+    position: absolute;
+    top: 0px;
+    left: 135px;
+    width: 80px;
+    height: 50px;
+}
+
+.box p:hover {
+    text-shadow: 2px 2px 2px blue, 2px 2px 1px blue;
+}
+
+.box1 img {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    width: 80px;
+    height: 50px;
+}
+
+.box1 p {
+    cursor: pointer;
+    font-weight: 900;
+    position: absolute;
+    top: 0px;
+    left: 470px;
+    width: 80px;
+    height: 50px;
+}
+
+.box1 p:hover {
+    text-shadow: 2px 2px 2px blue, 2px 2px 1px blue;
+}
+
+.box2 .ppp {
+    cursor: pointer;
+    font-weight: 900;
+    position: absolute;
+    top: 0px;
+    right: 480px;
+    width: 80px;
+    height: 50px;
+}
+
+.box2 p:hover {
+    text-shadow: 2px 2px 2px blue, 2px 2px 1px blue;
+}
+
+.box2 img {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 455px;
+    width: 80px;
+    height: 50px;
+}
+
+.box2 p {
+    cursor: pointer;
+    font-weight: 900;
+    position: absolute;
+    top: 0px;
+    right: 385px;
+    width: 80px;
+    height: 50px;
+}
+
+.box3 p:hover {
+    text-shadow: 2px 2px 2px blue, 2px 2px 1px blue;
+}
+
+.box3 img {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 140px;
+    width: 80px;
+    height: 50px;
+}
+
+.box3 p {
+    cursor: pointer;
+    font-weight: 900;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    width: 40px;
+    height: 50px;
+}
+
+.vid {
+    position: absolute;
+    left: 5%;
+    top: 930px;
+    width: 90%;
+    height: 500px;
+}
+
+video {
+    position: relative;
+    left: 5%;
+    top: 0px;
+    width: 90%;
+    height: 500px;
+}
+
+
+.text11 {
+    left: 185px;
+    position: absolute;
+    text-align: center;
+    top: 130px;
+    width: 70%;
+    font-size: 150px;
+    z-index: 10;
+    color: rgba(255, 255, 255, 0.61);
+    transition: 1s;
+}
+
+.text11:hover {
+    transition: 1s;
+    color: rgba(192, 192, 192, 0.644);
+    text-shadow: 2px 2px 2px transparent, 2px 2px 1px blue;
+}
+
+.foot {
+    position: absolute;
+    top: 225vh;
+    width: 92%;
+    left: 50px;
+    height: 200px;
+}
+
+.line3 {
+    position: absolute;
+    width: 150px;
+    border: 1.5px solid black;
+    top: 0px;
+    left
+}
+
+.text12 {
+    position: absolute;
+    top: 20px;
+    font-size: 35px;
+    font-weight: 900
+}
+
+.text12 p {
+    position: absolute;
+    top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text14 {
+    position: absolute;
+    top: 30px;
+    width: 700px;
+    height: 200px;
+    right: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.foot img {
+    cursor: pointer;
+    position: absolute;
+    top: 260px;
+    height: 200px;
+    width: 200px;
+}
+
+.text15 {
+    position: relative;
+    top: 290px;
+    left: 500px;
+    font-weight: 900;
+    font-size: 70px;
+    float: left;
+    margin-left: 100px;
+}
+
+.text16 {
+    position: relative;
+    top: 380px;
+    left: -80px;
+    font-weight: 900;
+    font-size: 20px;
+    float: left;
+    margin-left: 110px;
+    text-decoration: underline;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.text16:hover {
+    transition: .5s;
+    text-shadow: 2px 2px 2px blue, 2px 2px 1px blue;
+}
